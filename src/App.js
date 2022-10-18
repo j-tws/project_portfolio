@@ -5,38 +5,39 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects'
 import TechSkills from './components/TechSkills'
 import Contact from './components/Contact'
+import HelloThere from './components/HelloThere';
 
 
 function App() {
   return (
     <div className="App">
+      <div className="bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900">
+
       <Router>
 
       
       <header>
-        <nav className="relative container mx-auto p-6">
+        <nav className="absolute inset-x-0 container mx-auto p-2 text-stone-300">
           <div className="flex items-center justify-between">
             <div>
               Home Logo to put here
             </div>
-            <div className="hidden space-x-12 md:flex">
-              <Link className='hover:text-darkGrayishBlue'>About me</Link>
-              <Link className='hover:text-darkGrayishBlue'>Projects</Link>
-              <Link className='hover:text-darkGrayishBlue'>Tech Skills</Link>
-              <Link className='hover:text-darkGrayishBlue'>Contact</Link>
+            <div className="hidden space-x-12 text-xs md:flex items-center">
+              <Link className='hover:text-amber-300'>About me</Link>
+              <Link className='hover:text-amber-300'>Projects</Link>
+              <Link className='hover:text-amber-300'>Tech Skills</Link>
+              <Link className='hover:text-amber-300'>Contact</Link>
+              <Link className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</Link>
 
             </div>
             
-              <Link className='hidden md:block p-3 px-6 pt-2 text-white bg-veryDarkBlue rounded-lg hover:bg-brightRedLight'>Resume</Link>
 
           </div>
         </nav>
-        <h1 className="text-3xl font-bold underline">
-          Hello there! My name is JT
-        </h1>
-        <h2>A Full Stack Web Developer based in Melbourne</h2>
+        
       </header>
 
+      <HelloThere/>
       <AboutMe/>
       <TechSkills/>
       <Projects/>
@@ -48,6 +49,7 @@ function App() {
       </Routes>
 
       </Router>
+      </div>
     </div>
   );
 }

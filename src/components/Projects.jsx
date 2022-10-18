@@ -3,13 +3,22 @@ import React from "react";
 function Projects(){
 
   return (
-    <div>
-      <h2>Projects</h2>
-      <div>
-        <img className="object-cover h-60 w-110 mx-auto" src="img/projects/hipandhop.png" alt="hip_and_hop" />
-        <h3>Hip and Hop</h3>
-        <p>Hip and Hop is a project consists of two of your most friendly-neighbourhood games in a site. Hop, jump, climb around obstacles and collect items to boost your high scores! If you want to store your high scores into the leadership board, don't forget to sign up and use your jumping skills to topple the leaderboard!</p>
-        <p>Phaser.js MongoDB Mongoose </p>
+    <div className="mt-10 pt-5 border border-red-500">
+      <h2 className="max-w-md mx-auto text-5xl mb-8 font-primary text-amber-400 font-bold text-center">Projects</h2>
+
+
+      <div className="flex flex-row border border-red mx-auto">
+        
+        <div >
+          <img className="object-cover w-150 h-80 border border-red-500" src="img/projects/hipandhop.png" alt="hip_and_hop" />
+        </div>
+
+        <div className="w-1/3">
+          <h3>Hip and Hop</h3>
+          <p>Hip and Hop is a project consists of two of your most friendly-neighbourhood games in a site. Hop, jump, climb around obstacles and collect items to boost your high scores! If you want to store your high scores into the leadership board, don't forget to sign up and use your jumping skills to topple the leaderboard!</p>
+          <p>Phaser.js MongoDB Mongoose </p>
+        </div>
+
       </div>
 
       <div>

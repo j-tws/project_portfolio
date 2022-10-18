@@ -24,7 +24,8 @@ module.exports = {
       fontFamily: {
         primary: ['IBM Plex Sans', 'sans-serif'],
         secondary: ['DM Sans', 'sans-serif']
-      }
+      },
+      display: ['group-hover'],
     },
   },
   plugins: [],

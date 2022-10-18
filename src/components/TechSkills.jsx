@@ -10,28 +10,83 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiJquery } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { IconContext } from "react-icons";
+
+const iconSize = 70
 
 function TechSkills(){
 
   return (
-    <div>
-      <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 ">
-  
-        <h2 className="max-w-md mx-auto font-primary text-amber-400 text-4xl font-bold text-center md:text-left">Tech Skills</h2>
-          <div className="flex flex-row mx-auto border border-red-500">
-            <DiJavascript1 size={56}/>
-            <FaReact size={56}/>
-            <FaVuejs size={56}/>
-            <DiRuby size={56}/>
-            <DiRor size={56}/>
-            <DiNodejs size={56}/>
-            <SiMongodb size={56}/>
-            <SiTailwindcss size={56}/>
-            <SiPostgresql size={56}/>
-            <FaGitAlt size={56}/>
-            <SiJquery size={56}/>
+    <div className="px-4 py-8 mx-auto mt-10 border border-red-500">
+
+      <h2 className="max-w-md mx-auto text-5xl mb-8 font-primary text-amber-400 font-bold text-center">Tech Skills</h2>
+
+      <IconContext.Provider value={{ color: "#dfdfdfb3", className: "global-class-name" }}>
+        <div className="inline-block mx-auto max-w-2/3 border border-red-500">
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <DiJavascript1 className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Javascript</p>
           </div>
-      </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <FaReact className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">React</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <FaVuejs className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Vue</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <DiRuby className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Ruby</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <DiRor className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Rails</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <DiNodejs className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Node.js</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <SiMongodb className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">MongoDB</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <SiTailwindcss className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Tailwind</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <SiPostgresql className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">PostgreSQL</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <FaGitAlt className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">Git</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <SiJquery className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">jQuery</p>
+          </div>
+
+          <div className="inline-block group relative w-fit p-2 items-center">
+            <SiHtml5 className="opacity-100 group-hover:opacity-50 hover:transition-all" size={iconSize}/>
+            <p className="opacity-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-400 font-secondary font-bold group-hover:opacity-100 hover:transition-all p-5">HTML5</p>
+          </div>
+        </div>
+      </IconContext.Provider>
+
     </div>
   )
 

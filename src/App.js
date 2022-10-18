@@ -14,16 +14,22 @@ function App() {
 
       
       <header>
-        <nav>
-          <ul>
-          <li><Link>About me</Link></li>
-          <li><Link>Projects</Link></li>
-          <li><Link>Tech Skills</Link></li>
-          <li><Link>Experience</Link></li>
-          <li><Link>Contact</Link></li>
-          <li><Link>Resume</Link></li>
+        <nav className="relative container mx-auto p-6">
+          <div className="flex items-center justify-between">
+            <div>
+              Home Logo to put here
+            </div>
+            <div className="hidden space-x-12 md:flex">
+              <Link className='hover:text-darkGrayishBlue'>About me</Link>
+              <Link className='hover:text-darkGrayishBlue'>Projects</Link>
+              <Link className='hover:text-darkGrayishBlue'>Tech Skills</Link>
+              <Link className='hover:text-darkGrayishBlue'>Contact</Link>
+
+            </div>
             
-          </ul>
+              <Link className='hidden md:block p-3 px-6 pt-2 text-white bg-veryDarkBlue rounded-lg hover:bg-brightRedLight'>Resume</Link>
+
+          </div>
         </nav>
         <h1 className="text-3xl font-bold underline">
           Hello there! My name is JT

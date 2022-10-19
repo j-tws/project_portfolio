@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import TechSkills from './components/TechSkills'
 import Contact from './components/Contact'
 import HelloThere from './components/HelloThere';
+import { FiGithub } from "react-icons/fi";
 
 
 function App() {
@@ -37,6 +38,12 @@ function App() {
         
       </header>
 
+      <nav>
+        <ul>
+          <li></li>
+        </ul>
+      </nav>
+
       <HelloThere/>
       <AboutMe/>
       <TechSkills/>
@@ -49,6 +56,12 @@ function App() {
       </Routes>
 
       </Router>
+
+      <footer className="w-4/5 text-xs border border-red-500 text-stone-300 m-auto px-3 pt-20 pb-10">
+        <p>Created by Justin Tan with <span className="text-amber-400">React</span> and <span className="text-amber-400">Tailwind</span></p>
+        <p>Design inspired by <a href="https://brittanychiang.com/" className="text-amber-400">Brittany Chiang</a></p>
+      </footer>
+
       </div>
     </div>
   );

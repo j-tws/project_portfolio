@@ -13,8 +13,8 @@ function AboutMe(){
         <p className="font-secondary text-center text-sm text-darkGrayishBlue md:text-left md:text-base">Having a background in <span className="text-amber-400 font-bold">hospitality and architecture</span>, I am equipped with a unique set of skills and perspectives that I believe will be a great contribution to the tech industry. Both experiences made me realized that I thrive in <span className="text-amber-400 font-bold">a creative, problem solving</span> career. The joy of creating quality, functional products have never been so <span className="text-amber-400 font-bold">fulfilling</span> and I am excited about the various possibilities I can contribute to the world! </p>
       </div>
 
-      <div className="mx-6 m-auto w-72 md:w-80 border border-red-500">
-        <img src="/img/IMG_6258.jpg" alt="profile_img" />
+      <div className="rounded-lg mx-6 m-auto w-72 md:w-80 border border-red-500">
+        <img className="rounded-lg" src="/img/IMG_6258.jpg" alt="profile_img" />
       </div>
 
     </div>

@@ -6,13 +6,15 @@ import Projects from './components/Projects'
 import TechSkills from './components/TechSkills'
 import Contact from './components/Contact'
 import HelloThere from './components/HelloThere';
-import { FiGithub } from "react-icons/fi";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { FiMail } from "react-icons/fi";
 
 
 function App() {
   return (
     <div className="App">
-      <div className="bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900">
+      <div className="relative bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900">
 
       <Router>
 
@@ -38,9 +40,33 @@ function App() {
         
       </header>
 
-      <nav>
+      <nav className="fixed top-1/2 left-4 border border-red-500">
         <ul>
-          <li></li>
+          <li className="my-3">
+            <a href="https://github.com/j-tws"><AiFillGithub 
+              size={30} 
+              color="#d6d3d1b3"
+              onMouseOver={ ({target})  => target.style.color="#fbbf24" }
+              onMouseOut={ ({target})  => target.style.color="#d6d3d1b3" }
+            /></a>
+          </li>
+          <li className="my-3">
+            <a href="https://linkedin.com/in/justintanws"><AiFillLinkedin  
+              size={30} 
+              color="#d6d3d1b3"
+              onMouseOver={ ({target})  => target.style.color="#fbbf24" }
+              onMouseOut={ ({target})  => target.style.color="#d6d3d1b3" }
+            /></a>
+          </li>
+          <li className="my-3">
+            <a href="https://linkedin.com/in/justintanws"><FiMail   
+              size={30} 
+              color="#d6d3d1b3"
+              onMouseOver={ ({target})  => target.style.color="#fbbf24" }
+              onMouseOut={ ({target})  => target.style.color="#d6d3d1b3" }
+            /></a>
+          </li>
+          
         </ul>
       </nav>
 

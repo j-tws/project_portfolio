@@ -6,9 +6,9 @@ import { IconContext } from "react-icons";
 function Projects(){
 
   return (
-    <div className="mt-10 pt-5 border border-red-500">
+    <div id="projects" className="mt-10 pt-5 border border-red-500">
 
-      <h2 className="max-w-md mx-auto text-5xl font-primary text-amber-400 font-bold text-center">Projects</h2>
+      <h2 className="max-w-md mx-auto text-4xl font-primary text-amber-400 font-bold text-center">Projects</h2>
 
       {/* individual project container starts here */}
       <div className="flex flex-col items-center mx-auto m-8 md:flex-row md:w-4/5 border border-green-500">  

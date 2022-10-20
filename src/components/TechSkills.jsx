@@ -18,9 +18,9 @@ const iconSize = 70
 function TechSkills(){
 
   return (
-    <div className="px-4 py-8 mx-auto mt-10 border border-red-500 ">
+    <div id="techskills" className="px-4 py-8 mx-auto mt-10 border border-red-500 ">
 
-      <h2 className="max-w-md mx-auto text-5xl mb-8 font-primary text-amber-400 font-bold text-center">Tech Skills</h2>
+      <h2 className="max-w-md mx-auto text-4xl mb-8 font-primary text-amber-400 font-bold text-center">Tech Skills</h2>
 
       <IconContext.Provider value={{ color: "#dfdfdfb3", className: "global-class-name" }}>
         <div className="inline-block mx-auto max-w-2/3 border border-red-500 md:mx-6">

@@ -1,6 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+
+  .animation-delay-2000 {
+    animation-delay: 2s
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s
+  }
+  .animation-delay-6000 {
+    animation-delay: 6s
+  }
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #FBBF24;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px)
+}
+
+.hamburger-bottom {
+  transform: translateY(14px)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=IBM+Plex+Sans:wght@400;600&display=swap');
 
 body {

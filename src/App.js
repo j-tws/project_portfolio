@@ -2,18 +2,25 @@ import logo from './logo.svg';
 import './App.css';
 import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
-import Projects from './components/Projects'
-import TechSkills from './components/TechSkills'
-import Contact from './components/Contact'
+import Projects from './components/Projects';
+import TechSkills from './components/TechSkills';
+import Contact from './components/Contact';
 import HelloThere from './components/HelloThere';
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
-import {Link} from 'react-scroll'
+import { GiHamburgerMenu } from "react-icons/gi";
+import {Link} from 'react-scroll';
+import { useState } from 'react';
 
 
 function App() {
 
+  const [toggle, setToggle] = useState(false)
+
+  const handleToggle = () => {
+    setToggle(pre => !pre)
+  }
 
   return (
     <div className="App">
@@ -21,33 +28,48 @@ function App() {
 
       <Router>
 
-      
       <header>
-        <nav className="absolute inset-x-0 container mx-auto p-2 text-stone-300">
+        <nav className="absolute inset-x-0 z-20 container mx-auto p-2 text-stone-300">
           <div className="flex items-center justify-between">
             <div>
               Home Logo to put here
             </div>
-            <div className="hidden space-x-12 text-xs md:flex items-center">
-              <Link to="aboutme" spy={true} smooth={true} className='hover:text-amber-300'>About me</Link>
+              <div className="hidden space-x-12 text-xs md:flex items-center">
+                <Link to="aboutme" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>About me</Link>
 
-              <Link to="projects" spy={true} smooth={true} className='hover:text-amber-300'>Projects</Link>
+                <Link to="projects" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Projects</Link>
 
-              <Link to="techskills" spy={true} smooth={true} className='hover:text-amber-300'>Tech Skills</Link>
+                <Link to="techskills" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Tech Skills</Link>
 
-              <Link to="contact" spy={true} smooth={true} className='hover:text-amber-300'>Contact</Link>
+                <Link to="contact" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Contact</Link>
 
-              <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
+                <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
 
+              </div>           
             </div>
-            
+        </nav>
 
-          </div>
+        <nav className="fixed inset-x-0 z-30 bg-[#000626b3] md:hidden border border-green-500">
+          <div className="absolute right-0 m-3 p-2 bg-[#000626b3] rounded-md block cursor-pointer md:hidden" onClick={handleToggle}><GiHamburgerMenu size={30} color="#d6d3d1b3"/></div>
+
+          {toggle && 
+            <div id="menu" close={() => setToggle(false)} className="flex flex-col  items-center self-end text-stone-300 py-8 mt-10 space-y-6 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md transition duration-300 ease-in-out">
+              <Link to="aboutme" spy={true} smooth={true} onClick={handleToggle}>About me</Link>
+
+              <Link to="projects" spy={true} smooth={true} onClick={handleToggle}>Projects</Link>
+
+              <Link to="techskills" spy={true} smooth={true} onClick={handleToggle}>Tech Skills</Link>
+
+              <Link to="contact" spy={true} smooth={true} onClick={handleToggle}>Contact</Link>
+
+              <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" className='text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40'>Resume</a>
+            </div>
+          }
         </nav>
         
       </header>
 
-      <nav className="fixed top-1/2 left-4 border border-red-500">
+      <nav className="hidden z-20 fixed top-1/2 left-4 border border-red-500 md:flex">
         <ul>
           <li className="my-3">
             <a href="https://github.com/j-tws" target="_blank"><AiFillGithub 
@@ -82,11 +104,6 @@ function App() {
       <TechSkills/>
       <Projects/>
       <Contact/>
-
-      <Routes>
-          {/* <Route path='/' element={<AboutMe/>} />
-          <Route path='/' element={<Projects/>} /> */}
-      </Routes>
 
       </Router>
 

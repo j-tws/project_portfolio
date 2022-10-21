@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import TechSkills from './components/TechSkills';
@@ -49,7 +49,7 @@ function App() {
 
                 <Link to="contact" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Contact</Link>
 
-                <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
+                <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" rel="noreferrer" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
 
               </div>           
             </div>
@@ -68,7 +68,7 @@ function App() {
 
               <Link to="contact" spy={true} smooth={true} onClick={handleToggle}>Contact</Link>
 
-              <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" className='text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40'>Resume</a>
+              <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" rel="noreferrer" className='text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40'>Resume</a>
             </div>
           }
         </nav>
@@ -78,7 +78,7 @@ function App() {
       <nav className="hidden z-20 fixed top-1/2 left-4 md:flex">
         <ul>
           <li className="my-3">
-            <a href="https://github.com/j-tws" target="_blank"><AiFillGithub 
+            <a href="https://github.com/j-tws" rel="noreferrer" target="_blank"><AiFillGithub 
               size={30} 
               color="#d6d3d1b3"
               onMouseOver={ ({target})  => target.style.color="#fbbf24" }
@@ -86,7 +86,7 @@ function App() {
             /></a>
           </li>
           <li className="my-3">
-            <a href="https://linkedin.com/in/justintanws" target="_blank"><AiFillLinkedin  
+            <a href="https://linkedin.com/in/justintanws" rel="noreferrer" target="_blank"><AiFillLinkedin  
               size={30} 
               color="#d6d3d1b3"
               onMouseOver={ ({target})  => target.style.color="#fbbf24" }
@@ -94,7 +94,7 @@ function App() {
             /></a>
           </li>
           <li className="my-3">
-            <a href="https://linkedin.com/in/justintanws" target="_blank"><FiMail   
+            <a href="https://linkedin.com/in/justintanws" rel="noreferrer" target="_blank"><FiMail   
               size={30} 
               color="#d6d3d1b3"
               onMouseOver={ ({target})  => target.style.color="#fbbf24" }

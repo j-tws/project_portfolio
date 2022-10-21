@@ -14,7 +14,7 @@ function AboutMe(){
       </div>
 
 
-        <img className="rounded-full mx-6 m-auto w-72 md:w-80" src="/img/IMG_6258.jpg" alt="profile_img" />
+        <img className="rounded-full mx-6 m-auto w-1/2 md:w-72" src="/img/IMG_6258.jpg" alt="profile_img" />
  
 
     </div>

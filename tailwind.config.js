@@ -19,6 +19,7 @@ module.exports = {
 
       animation: {
         blob: "blob 7s infinite",
+        waving: 'wave 2s linear infinite',
       },
 
       keyframes: {
@@ -39,9 +40,10 @@ module.exports = {
             transform: "translate(-20px, 0px) scale(1)"
           }
 
-        } // blob
-      } // keyframes
+        }, // blob
 
+       
+      }, // keyframes
 
     }, // extend
   },

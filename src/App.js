@@ -115,7 +115,7 @@ function App() {
 
       <footer className="w-4/5 text-xs text-stone-300 m-auto px-3 pt-20 pb-10">
         <p>Created by Justin Tan with <span className="text-amber-400">React</span> and <span className="text-amber-400">Tailwind</span></p>
-        <p>Design inspired by <a href="https://brittanychiang.com/" className="text-amber-400"  target="_blank">Brittany Chiang</a></p>
+        <p>Design inspired by <a href="https://brittanychiang.com/" rel="noreferrer" className="text-amber-400"  target="_blank">Brittany Chiang</a></p>
       </footer>
 
       </div>

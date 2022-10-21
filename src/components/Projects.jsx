@@ -11,10 +11,10 @@ function Projects(){
       <h2 className="max-w-md mx-auto text-4xl font-primary text-amber-400 font-bold text-center">Projects</h2>
 
       {/* individual project container starts here */}
-      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+      <div className="max-w-6xl rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
         <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/hipandhop.png" alt="hip_and_hop" />
       
-        <div className="rounded-lg w-4/5 mx-4 my-4 p-3 items-center text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 ">
+        <div className="rounded-lg w-4/5 mx-4 my-4 p-3 items-center text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
 
           <div>
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hip and Hop</h3>
@@ -33,7 +33,7 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+      <div className="max-w-6xl rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
         <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/despination.png" alt="hip_and_hop" />
       
         <div className="rounded-lg p-3 w-4/5 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
@@ -55,7 +55,7 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+      <div className="max-w-6xl rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
         <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/hangar.png" alt="hip_and_hop" />
       
         <div className="rounded-lg w-4/5 p-3 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
@@ -77,7 +77,7 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+      <div className="max-w-6xl rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
         <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/tictactoe.png" alt="hip_and_hop" />
       
         <div className="rounded-lg w-4/5 p-3 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">

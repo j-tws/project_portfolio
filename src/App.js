@@ -12,6 +12,7 @@ import { FiMail } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import {Link} from 'react-scroll';
 import { useState } from 'react';
+import { HiHome } from 'react-icons/hi';
 
 
 function App() {
@@ -29,10 +30,15 @@ function App() {
       <Router>
 
       <header>
-        <nav className="absolute inset-x-0 z-20 container mx-auto p-2 text-stone-300">
+        <nav className="hidden md:block fixed bg-[#121C36B3] inset-x-0 w-full z-20 mx-auto p-1 text-stone-300">
           <div className="flex items-center justify-between">
-            <div>
-              Home Logo to put here
+            <div className="ml-3">
+              <Link activeClass="active" to="hellothere" spy={true} smooth={true} className="cursor-pointer">
+                <HiHome size={30}
+                  color="#d6d3d1b3"
+                  onMouseOver={ ({target})  => target.style.color="#fbbf24" }
+                  onMouseOut={ ({target})  => target.style.color="#d6d3d1b3" }
+              /></Link>
             </div>
               <div className="hidden space-x-12 text-xs md:flex items-center">
                 <Link to="aboutme" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>About me</Link>
@@ -49,7 +55,7 @@ function App() {
             </div>
         </nav>
 
-        <nav className="fixed inset-x-0 z-30 bg-[#000626b3] md:hidden border border-green-500">
+        <nav className="fixed inset-x-0 z-30 bg-[#000626b3] md:hidden">
           <div className="absolute right-0 m-3 p-2 bg-[#000626b3] rounded-md block cursor-pointer md:hidden" onClick={handleToggle}><GiHamburgerMenu size={30} color="#d6d3d1b3"/></div>
 
           {toggle && 
@@ -69,7 +75,7 @@ function App() {
         
       </header>
 
-      <nav className="hidden z-20 fixed top-1/2 left-4 border border-red-500 md:flex">
+      <nav className="hidden z-20 fixed top-1/2 left-4 md:flex">
         <ul>
           <li className="my-3">
             <a href="https://github.com/j-tws" target="_blank"><AiFillGithub 
@@ -107,7 +113,7 @@ function App() {
 
       </Router>
 
-      <footer className="w-4/5 text-xs border border-red-500 text-stone-300 m-auto px-3 pt-20 pb-10">
+      <footer className="w-4/5 text-xs text-stone-300 m-auto px-3 pt-20 pb-10">
         <p>Created by Justin Tan with <span className="text-amber-400">React</span> and <span className="text-amber-400">Tailwind</span></p>
         <p>Design inspired by <a href="https://brittanychiang.com/" className="text-amber-400"  target="_blank">Brittany Chiang</a></p>
       </footer>

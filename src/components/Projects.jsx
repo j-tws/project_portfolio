@@ -6,17 +6,17 @@ import { IconContext } from "react-icons";
 function Projects(){
 
   return (
-    <div id="projects" className="mt-10 pt-5 border border-red-500">
+    <div id="projects" className="mt-10 pt-5">
 
       <h2 className="max-w-md mx-auto text-4xl font-primary text-amber-400 font-bold text-center">Projects</h2>
 
       {/* individual project container starts here */}
-      <div className="flex flex-col items-center mx-auto m-8 md:flex-row md:w-4/5 border border-green-500">  
-        <img className="rounded-lg mx-5 object-cover w-4/5 md:object-cover md:w-4/6 md:h-1/2 border border-red-500 md:m-5 md:m-auto" src="img/projects/hipandhop.png" alt="hip_and_hop" />
+      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+        <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/hipandhop.png" alt="hip_and_hop" />
       
-        <div className="w-4/5 border mx-8 mb-8 items-center text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 border-red-500">
+        <div className="rounded-lg w-4/5 mx-4 my-4 p-3 items-center text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 ">
 
-          <div className="border border-blue-500">
+          <div>
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hip and Hop</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
@@ -33,12 +33,12 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="flex flex-col items-center mx-auto m-8 md:flex-row md:w-4/5 border border-green-500">  
-        <img className="rounded-lg object-cover h-50 w-4/5 md:object-cover md:w-4/6 md:h-1/2 border border-red-500 md:m-5  md:m-auto" src="img/projects/despination.png" alt="hip_and_hop" />
+      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+        <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/despination.png" alt="hip_and_hop" />
       
-        <div className="w-4/5 border mx-8 mb-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 border-red-500">
+        <div className="rounded-lg p-3 w-4/5 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
 
-          <div className="border border-blue-500">
+          <div>
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">desPination</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
@@ -55,12 +55,12 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="flex flex-col items-center mx-auto m-8 md:flex-row md:w-4/5 border border-green-500">  
-        <img className="rounded-lg md:m-5 object-cover w-4/5 h-50 md:object-cover md:w-4/6 md:h-1/2 border border-red-500 md:m-auto" src="img/projects/hangar.png" alt="hip_and_hop" />
+      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+        <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/hangar.png" alt="hip_and_hop" />
       
-        <div className="w-4/5 border mx-8 mb-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 border-red-500">
+        <div className="rounded-lg w-4/5 p-3 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
 
-          <div className="border border-blue-500">
+          <div>
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hangar</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
@@ -77,12 +77,12 @@ function Projects(){
       {/* individual project container ends here */}
 
       {/* individual project container starts here */}
-      <div className="flex flex-col items-center mx-auto m-8 md:flex-row md:w-4/5 border border-green-500">  
-        <img className="rounded-lg object-cover w-4/5 h-50 md:object-cover md:w-4/6 md:h-1/2 border border-red-500 md:m-auto md:m-5" src="img/projects/tictactoe.png" alt="hip_and_hop" />
+      <div className="rounded-lg flex flex-col items-center mx-auto m-8 mx-4 md:flex-row md:mx-auto md:w-4/5 bg-[#0d1321]">  
+        <img className="max-w-lg rounded-lg object-cover mt-4 w-4/5 md:object-cover md:w-4/6 md:h-1/2 md:m-6 md:m-auto" src="img/projects/tictactoe.png" alt="hip_and_hop" />
       
-        <div className="w-4/5 border mx-8 mb-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5 border-red-500">
+        <div className="rounded-lg w-4/5 p-3 mx-8 my-8 mx-auto text-center md:p-3 md:m-auto md:pt-4 md:text-left md:mr-5">
 
-          <div className="border border-blue-500">
+          <div>
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Tic Tac Toe</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>

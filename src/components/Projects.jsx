@@ -20,8 +20,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hip and Hop</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://hipandhop.netlify.app/"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/hip-and-hop-frontend-1"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://hipandhop.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/hip-and-hop-frontend-1" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 
@@ -42,8 +42,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">desPination</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://despination.netlify.app/"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://despination.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 
@@ -64,8 +64,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hangar</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://despination.netlify.app/"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://despination.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 
@@ -86,8 +86,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Tic Tac Toe</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://despination.netlify.app/"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://despination.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 

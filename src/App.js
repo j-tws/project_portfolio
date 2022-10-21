@@ -94,7 +94,7 @@ function App() {
             /></a>
           </li>
           <li className="my-3">
-            <a href="https://linkedin.com/in/justintanws" rel="noreferrer" target="_blank"><FiMail   
+            <a href="mailto:justintws10@gmail.com" rel="noreferrer" target="_blank"><FiMail   
               size={30} 
               color="#d6d3d1b3"
               onMouseOver={ ({target})  => target.style.color="#fbbf24" }

@@ -49,7 +49,7 @@ function App() {
 
                 <Link to="contact" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Contact</Link>
 
-                <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" rel="noreferrer" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
+                <a href="https://drive.google.com/file/d/1BfwTIVdbbgEtre2WyF_jMzsqb60J6LRO/view?usp=sharing" target="_blank" rel="noreferrer" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
 
               </div>           
             </div>

@@ -25,14 +25,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className="relative bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 w-full">
+      <div className="relative bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 w-screen">
 
       <Router>
 
       <header>
         <nav className="hidden md:block fixed bg-[#121C36B3] inset-x-0 w-full z-20 mx-auto p-1 text-stone-300">
           <div className="flex items-center justify-between">
-            <div className="ml-3">
+            <div>
               <Link activeClass="active" to="hellothere" spy={true} smooth={true} className="cursor-pointer">
                 <HiHome size={30}
                   color="#d6d3d1b3"

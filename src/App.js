@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="relative bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900">
+      <div className="relative bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 w-full">
 
       <Router>
 
@@ -49,7 +49,7 @@ function App() {
 
                 <Link to="contact" spy={true} smooth={true} className='hover:text-amber-300 cursor-pointer'>Contact</Link>
 
-                <a href="https://drive.google.com/file/d/1BfwTIVdbbgEtre2WyF_jMzsqb60J6LRO/view?usp=sharing" target="_blank" rel="noreferrer" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
+                <a href="https://drive.google.com/file/d/1kvS0oMeWWEIN8BPgi2bBqZQLSjtnAdfF/view?usp=sharing" target="_blank" rel="noreferrer" className='hidden text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40 md:block'>Resume</a>
 
               </div>           
             </div>

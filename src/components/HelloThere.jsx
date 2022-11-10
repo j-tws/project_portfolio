@@ -4,7 +4,7 @@ import React from "react";
 function HelloThere() {
 
   return (
-    <div id="hellothere" className="relative flex w-screen h-screen">
+    <div id="hellothere" className="relative flex w-screen h-screen overflow-hidden">
 
       {/* <canvas className="orb-canvas"></canvas> */}
       <div className="absolute inset-x-0 inset-y-0 m-auto w-full max-w-lg h-1/4">

@@ -68,7 +68,7 @@ function App() {
 
               <Link to="contact" spy={true} smooth={true} onClick={handleToggle}>Contact</Link>
 
-              <a href="https://drive.google.com/file/d/1ImEnE8EvboFMBtd8Pr1eyMqx4LL3xxpa/view?usp=sharing" target="_blank" rel="noreferrer" className='text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40'>Resume</a>
+              <a href="https://drive.google.com/file/d/1kvS0oMeWWEIN8BPgi2bBqZQLSjtnAdfF/view?usp=sharing" target="_blank" rel="noreferrer" className='text-white px-4 py-2 border border-amber-300 rounded hover:bg-amber-300/40'>Resume</a>
             </div>
           }
         </nav>

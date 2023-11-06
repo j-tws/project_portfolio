@@ -64,8 +64,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Hangar</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://despination.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend" target="_blank" rel="noreferrer"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://hangar.onrender.com/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/hangar-site" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 
@@ -86,8 +86,8 @@ function Projects(){
             <h3 className="block md:inline-block text-amber-400 text-2xl font-primary mb-3 font-bold">Tic Tac Toe</h3>
 
             <IconContext.Provider value={{ color: "#fbbf24b3", className: "global-class-name" }}>
-              <a className="inline-block mx-2" href="https://despination.netlify.app/" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
-              <a className="inline-block mx-1" href="https://github.com/j-tws/despination-frontend" target="_blank" rel="noreferrer"><FiGithub /></a>
+              <a className="inline-block mx-2" href="https://j-tws.github.io/tic-tac-toe/index.html" target="_blank" rel="noreferrer"><BiLinkExternal/></a>
+              <a className="inline-block mx-1" href="https://github.com/j-tws/tic-tac-toe" target="_blank" rel="noreferrer"><FiGithub /></a>
             </IconContext.Provider>
           </div>
 
